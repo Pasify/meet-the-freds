@@ -1,0 +1,10 @@
+body {
+  background: #0a5b90;
+  padding: 2rem;
+  transition: all ease .2s;
+
+}
+
+.fred {
+  height: 7rem;
+}

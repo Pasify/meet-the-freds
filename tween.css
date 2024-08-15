@@ -1,0 +1,62 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#demo {
+    position: relative;
+    width: 800px;
+    height: 410px;
+    border: 1px solid #333;
+    background: url(images/space-background.png);
+    overflow: hidden;
+}
+
+#title {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+#time {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+#freds {
+    position: relative;
+    top: 300px;
+    left: 20px;
+}
+
+#freds img,
+.fred {
+    width: 122px;
+
+}
+
+/* .control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+} */
+
+/* #nav {
+    display: flex;
+    gap: 2rem;
+} */
+
+/* #nav button {
+    padding: .5rem;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+} */
